@@ -12,3 +12,7 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let s = 12560;
+
+console.log(`I secondi inseriti sono ${s} che corrispondono a ${parseInt((s/60)/60)} ore, ${parseInt((s/60)%60)} minuti e ${s%60} secondi`);
