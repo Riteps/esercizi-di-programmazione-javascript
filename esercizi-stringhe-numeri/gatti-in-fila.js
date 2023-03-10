@@ -17,3 +17,18 @@
 
   http://www.imparareaprogrammare.it
 */
+
+
+let cats = 21;
+let cats_row = 3;
+
+let resulting_rows = Math.ceil(cats / cats_row);
+let cats_missing = (resulting_rows * cats_row) - cats;
+
+
+console.log(`Hai ${cats} gatti con ${cats_row} gatti per fila.`);
+console.log(`Avrai ${resulting_rows} file di gatti.`);
+ if (cats_missing > 0) {
+  console.log(`Ti mancano ${cats_missing} gatti per completare la fila N° ${resulting_rows}.`
+)};
+
